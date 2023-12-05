@@ -1,0 +1,65 @@
+body {
+  background-color: #fceaff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 500px;
+  background-color: #fff0f6;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border: 2px solid #ff58c0;
+  text-align: center;
+}
+
+h2 {
+  color: #ff85c0;
+  font-size: 28p;
+  margin-bottom: 30px;
+}
+
+.love_calculator {
+  margin-top: 20px;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input[type="text"] {
+  width: 95%;
+  padding: 10px;
+  margin-top: 10px;
+  color: #ff85c0;
+}
+button {
+  background-color: #ff85c0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #530e30;
+}
+
+@media screen and (max-width: 600px) {
+  /* width: 100px; */
+
+  .container {
+    width: 250px;
+  }
+  /* Your styles for small screens go here */
+}
